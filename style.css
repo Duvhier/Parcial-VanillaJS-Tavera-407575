@@ -1,55 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3efe0;
+    color: #3a3a3a; 
+}
+
 .card {
-    max-width: 400px;
-    margin: 40px auto;
-    background-color: cadetblue;
-    padding: 20px;
-    border-radius: 15px;
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: #fffaf3;
+    padding: 30px;
+    border-radius: 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d5cdb6;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
 }
 
 .avatar-container {
     margin-bottom: 20px;
-
 }
 
 .avatar {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
+    border: 4px solid #187385;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.description {
-    margin-bottom: 15px;
+.description h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #187385;
+}
+
+.description p {
+    font-size: 16px;
+    color: #5e503f;
 }
 
 .contact {
-    margin-bottom: 15px;
-    font-weight: bold;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #6c584c;
+    font-weight: 500;
+}
+
+.links {
+    margin-top: 20px;
 }
 
 .links a {
-    margin: 0 15px;
     text-decoration: none;
-    color: #333;
+    color: whitesmoke;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #187385;
 }
 
 .link-card {
     display: inline-block;
-    margin: 15px;
-    padding: 10px; border: 1px solid #ccc; border-radius: 10px;
-    background: lightcyan;
-    border-radius: 8px;
+    margin: 10px 8px;
+    padding: 10px 20px;
+    background-color: #187385;
+    color: #fffaf3;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
+    box-shadow: 0 4px 10px rgba(163, 177, 138, 0.3);
+}
+
+.link-card:hover {
+    background-color: #105965;
+    color: #fefae0;
 }
 
 .card ul {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
 .card li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    color: #5e503f;
 }
