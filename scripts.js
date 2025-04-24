@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (downloadBtn) {
     downloadBtn.addEventListener("click", function () {
-      const element = document.body;
+      const element = document.getElementById("cv");
 
       const opt = {
         margin: 0.5,
@@ -17,4 +17,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-
