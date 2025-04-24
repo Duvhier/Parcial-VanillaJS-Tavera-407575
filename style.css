@@ -35,20 +35,21 @@ body {
 }
 
 .description h2 {
-    font-size: 26px;
+    font-family: 'Alex Brush', cursive;
+    font-size: 42px;
     margin-bottom: 10px;
     color: #187385;
 }
 
 .description p {
     font-size: 16px;
-    color: #5e503f;
+    color: #333;
 }
 
 .contact {
     margin-top: 15px;
     font-size: 15px;
-    color: #6c584c;
+    color: #333;
     font-weight: 500;
 }
 
@@ -95,5 +96,5 @@ body {
 
 .card li {
     margin-bottom: 10px;
-    color: #5e503f;
+    color: #333;
 }
