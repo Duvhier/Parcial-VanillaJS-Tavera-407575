@@ -40,4 +40,6 @@ Este proyecto es un sitio web personal que muestra el currículum vitae de Duvie
 
 ---
 
-Este proyecto es una representación digital del currículum profesional y académico, ideal para compartir de forma moderna y accesible.
+## Enlace 
+
+-- Vercel: https://parcial-vanilla-js-tavera-407575.vercel.app/
