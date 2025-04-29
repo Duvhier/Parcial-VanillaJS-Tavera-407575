@@ -6,78 +6,152 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currículum de Duvier Alberto Tavera S.</title>
   <link rel="stylesheet" href="./style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </head>
 
 <body>
-  <section>
-    <div class="card" id="cv">
-      <div id="cv-content">
-        <div class="avatar-container">
-          <img src="./assets/avatar.png" alt="Foto de perfil" class="avatar" id="avatarPreview">
-        </div>
+  <main>
+    <section>
+      <div class="card" id="cv">
+        <div id="cv-content">
+          <div class="avatar-container">
+            <img src="./assets/avatar.png" alt="Foto de perfil" class="avatar" id="avatarPreview">
+            <!-- Enamorado de mi Familia -->
+          </div>
 
-        <div class="description">
-          <h2>Duvier Alberto Tavera S.</h2>
-          <p><strong>Tecnólogo en Desarrollo de Software</strong></p>
-          <p>Enfocado en Desarrollo Frontend y Creación de Diseños Digitales WEB.</p>
-        </div>
+          <div class="description">
+            <h2>Duvier Alberto Tavera S.</h2>
+            <p><strong>Tecnólogo en Desarrollo de Software</strong></p>
+            <p>Enfocado en Desarrollo Frontend y Creación de Diseños Digitales WEB.</p>
+          </div>
 
-        <div class="contact">
-          <p><strong>Teléfono:</strong> 📞3013376768</p>
-          <p><strong>Email:</strong> 📧duvier.tavera01@unicatolica.edu.co</p>
-          <p><strong>Ubicación:</strong> 📍Cali, Colombia 🇨🇴</p>
-        </div>
+          <div class="contact">
+            <p><strong>Teléfono:</strong> 📞3013376768</p>
+            <p><strong>Email:</strong> 📧duvier.tavera01@unicatolica.edu.co</p>
+            <p><strong>Ubicación:</strong> 📍Cali, Colombia 🇨🇴</p>
+          </div>
 
-        <div class="links">
-          <a href="./education.html" class="link-card">🧑‍🏫Educación</a>
-          <a href="./experience.html" class="link-card">🧑‍💻Experiencia</a>
-        </div>
+          <div class="links">
+            <a href="./education.html" class="link-card">🧑‍🏫Educación</a>
+            <a href="./experience.html" class="link-card">🧑‍💻Experiencia</a>
+          </div>
 
-        <div id="extra-info" style="display: none;">
-          <hr>
-          <h3>📘 Formación Académica</h3>
-          <ul class="cv-list">
-            <li><strong>Universidad Unicatólica</strong><br><small>Tecnólogo en Desarrollo de Software - En curso</small></li>
-            <li><strong>SENA</strong><br><small>Tecnólogo en Análisis y Desarrollo de Sistemas de Información - 2020</small></li>
-            <li><strong>SENA</strong><br><small>Técnico en Programación de Software - 2018</small></li>
-            <li><strong>INTENALCO</strong><br><small>Técnico en Sistemas - 2009</small></li>
-            <li><strong>Institución Educativa Guillermo Valencia</strong><br><small>Bachiller Académico - 2005</small></li>
-          </ul>
-        
-          <hr>
-          <h3>💼 Experiencia Profesional</h3>
-          <ul class="cv-list">
-            <li>
-              <strong>Desarrollador Frontend - Empresa Helppeople</strong><br>
-              <small>Enero 2023 - Actualidad</small><br>
-              <small>Desarrollo de interfaces responsivas con React y Tailwind. Mantenimiento de sistemas legacy en JavaScript Vanilla.</small>
-            </li>
-            <li>
-              <strong>Diseñador Web Freelance</strong><br>
-              <small>2021 - 2022</small><br>
-              <small>Creación de sitios web personalizados para pequeñas empresas.</small>
-            </li>
-            <li>
-              <strong>Asistente Técnico en TI - Empresa DELTEC S.A.</strong><br>
-              <small>2019 - 2020</small><br>
-              <small>Soporte técnico, instalación de software, y capacitación a usuarios en soporte y mantenimiento de hardware, software y redes.</small>
-            </li>
-            <li>
-              <strong>Practicante en Sistemas - SENA</strong><br>
-              <small>2010 - 2019</small><br>
-              <small>Reparación y Actualización de Computadores.</small>
-            </li>
-          </ul>
+          <div class="projects">
+            <h3>🛠️ Proyectos Destacados</h3>
+            <p>Repositorios y enlace a Vercel</p>
+            <ul class="cv-list">
+
+              <li class="proyecto-fullstack">
+                <div class="proyecto-info">
+                  <a href="https://github.com/Duvhier/pocketuxfront.git" target="_blank">
+                    <i class="fas fa-database"></i> Gana Como Loco con React y MongoDB
+                  </a>
+                  <p>Sistema de códigos premiados con login, roles y MongoDB.</p>
+                </div>
+                <a href="https://ganacomolocofront-xi.vercel.app/" target="_blank" class="vercel-btn">
+
+                  <svg class="vercel-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1155 1000" fill="white">
+                    <path d="M577.5 0L1155 1000H0L577.5 0z" />
+                  </svg>
+                </a>
+              </li>
+
+              <li class="proyecto-react">
+                <div class="proyecto-info">
+                  <a href="https://github.com/Duvhier/horoscopo-front.git" target="_blank">
+                    <i class="fab fa-react"></i> Horóscopo con React
+                  </a>
+                  <p>App React que muestra los signos zodiacales según fecha.</p>
+                </div>
+                <a href="https://horoscopo-front.vercel.app" target="_blank" class="vercel-btn">
+                  <svg class="vercel-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1155 1000" fill="white">
+                    <path d="M577.5 0L1155 1000H0L577.5 0z" />
+                  </svg>
+                </a>
+              </li>
+
+              <li class="proyecto-web">
+                <div class="proyecto-info">
+                  <a href="https://github.com/Cristhyan11/jyscleanco_front.git" target="_blank">
+                    <i class="fas fa-store"></i> Sitio web de productos de aseo
+                  </a>
+                  <p>Catálogo con carrito de compras, productos y categorías.</p>
+                </div>
+                <a href="https://jyscleanco-front.vercel.app" target="_blank" class="vercel-btn">
+                  <svg class="vercel-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1155 1000" fill="white">
+                    <path d="M577.5 0L1155 1000H0L577.5 0z" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div id="extra-info" style="display: none;">
+            <hr>
+            <h3>📘 Formación Académica</h3>
+            <ul class="cv-list">
+              <li><strong>Universidad Unicatólica</strong><br><small>Tecnólogo en Desarrollo de Software - En
+                  curso</small></li>
+              <li><strong>SENA</strong><br><small>Tecnólogo en Análisis y Desarrollo de Sistemas de Información -
+                  2020</small></li>
+              <li><strong>SENA</strong><br><small>Técnico en Programación de Software - 2018</small></li>
+              <li><strong>INTENALCO</strong><br><small>Técnico en Sistemas - 2009</small></li>
+              <li><strong>Institución Educativa Guillermo Valencia</strong><br><small>Bachiller Académico - 2005</small>
+              </li>
+            </ul>
+
+            <hr>
+            <h3>💼 Experiencia Profesional</h3>
+            <ul class="cv-list">
+              <li>
+                <strong>Desarrollador Frontend - Empresa Helppeople</strong><br>
+                <small>Enero 2023 - Actualidad</small><br>
+                <small>Desarrollo de interfaces responsivas con React y Tailwind. Mantenimiento de sistemas legacy en
+                  JavaScript Vanilla.</small>
+              </li>
+              <li>
+                <strong>Diseñador Web Freelance</strong><br>
+                <small>2021 - 2022</small><br>
+                <small>Creación de sitios web personalizados para pequeñas empresas.</small>
+              </li>
+              <li>
+                <strong>Asistente Técnico en TI - Empresa DELTEC S.A.</strong><br>
+                <small>2019 - 2020</small><br>
+                <small>Soporte técnico, instalación de software, y capacitación a usuarios en soporte y mantenimiento de
+                  hardware, software y redes.</small>
+              </li>
+              <li>
+                <strong>Practicante en Sistemas - SENA</strong><br>
+                <small>2010 - 2019</small><br>
+                <small>Reparación y Actualización de Computadores.</small>
+              </li>
+            </ul>
+          </div>
+          <button id="downloadBtn" class="link-card">📄 Descargar CV</button>
         </div>
-        
       </div>
-
-      <button id="downloadBtn" class="link-card">📄Descargar CV</button>
+    </section>
+    <section class="contact-section">
+      <h3>💬 Hablemos</h3>
+      <img src="./assets/contact.png" alt="Gif de contacto" class="contact-gif">
+      <form id="contactForm" class="contact-form">
+        <label for="message" class="visually-hidden">Mensaje</label>
+        <textarea id="message" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        <button type="submit" class="contact-button">Enviar</button>
+      </form>
+      <p id="responseMessage"></p>
+    </section>
+  </main>
+  <div id="messageModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+    <div class="modal-content">
+      <h2 id="modalTitle">Mensaje</h2>
+      <p id="modalDesc"> 📨 Mensaje Enviado con Éxito </p>
+      <button id="closeModal" aria-label="Cerrar mensaje">Cerrar</button>
     </div>
-  </section>
+  </div>  
+  </div>
   <script src="scripts.js"></script>
 </body>
-
 </html>
